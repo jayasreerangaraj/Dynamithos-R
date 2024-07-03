@@ -371,9 +371,9 @@ h6 {
   padding: 0;
 }
 
-.m-230{
+/* .m-230{
   margin-left: 230px;
-}
+} */
 
 #hero:before {
   content: "";
@@ -1160,6 +1160,15 @@ section {
   padding: 15px;
   font-weight: 600;
 }
+
+@media (min-width: 768px) {
+  .m-230{
+      /* margin-top: 0 !important; */
+      margin-left: 230px;
+  }
+}
+
+
 
 .contact .php-email-form .error-message br+br {
   margin-top: 25px;
