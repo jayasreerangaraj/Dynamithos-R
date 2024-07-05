@@ -112,8 +112,12 @@ h6 {
   margin: 0 0 0 30px;
 }
 
+.icon{
+  color: #000;
+}
+
 .header-social-links a {
-  color: #9ba6af;
+  color: #beb7b7;
   padding-left: 8px;
   display: inline-block;
   line-height: 0px;
@@ -123,7 +127,9 @@ h6 {
 .header-social-links a i {
   line-height: 0;
 }
-
+.yellow{
+  color: #d1a625c9;
+}
 .header-social-links a:hover {
   color: #d1a625c9;
 }
@@ -741,7 +747,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio {
-  padding: 60px 0;
+  padding: 110px 0;
 }
 
 .portfolio #portfolio-flters {
@@ -1161,12 +1167,12 @@ section {
   font-weight: 600;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .m-230{
-      /* margin-top: 0 !important; */
+      margin-top: 0 !important;
       margin-left: 230px;
   }
-}
+} */
 
 
 
