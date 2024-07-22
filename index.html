@@ -680,7 +680,7 @@
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>karthik@dynamithosr.com<br>info@dynamithosr.com</p>
+                  <p>info@dynamithosr.com</p>
                 </div>
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
@@ -697,7 +697,8 @@
 
         <div class="row mt-5 justify-content-center">
           <div class="col-lg-10">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="post" role="form" class="php-email-form">
+              <input type="hidden" name="access_key" value="890f56b3-c627-48d5-8cb1-4823e22dc1ba">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
